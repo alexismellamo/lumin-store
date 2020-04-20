@@ -1,0 +1,55 @@
+.nav {
+  align-items: center;
+  box-shadow: 0 6px 4px -2px #f2f2f0;
+  color: #000;
+  display: flex;
+  padding: 0.9375rem 1.875rem;
+  font-size: 0.875rem;
+
+  &--logo {
+    height: 1.875rem;
+  }
+
+  &--links {
+    flex: 1;
+    padding: 0 5rem;
+  }
+
+  &--link {
+    margin-right: 3.125rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &--shop-account {
+    display: flex;
+    align-items: center;
+  }
+
+  &--account {
+    margin-right: 1.25rem;
+  }
+
+  &--cart {
+    position: relative;
+
+    button {
+      padding: 0;
+      margin: 0;
+      border: 0;
+      background-color: transparent;
+    }
+
+    img {
+      height: 1.25rem;
+    }
+
+    span {
+      position: absolute;
+      top: -0.5rem;
+      right: -0.5rem;
+    }
+  }
+}

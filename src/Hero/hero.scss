@@ -1,0 +1,27 @@
+.hero {
+  display: flex;
+  padding: 6.25rem;
+  color: #2b2e2b;
+  justify-content: space-between;
+
+  &--header {
+    h1 {
+      font-size: 3rem;
+      text-transform: none;
+      margin-bottom: 1.625rem;
+      font-weight: 400;
+    }
+  }
+
+  &--filter {
+    display: flex;
+    align-items: flex-end;
+
+    .fake-dropdown {
+      font-size: 0.75rem;
+      border: 1px solid #ced1ce;
+      padding: 1.25rem 1.25rem;
+      width: 18.75rem;
+    }
+  }
+}

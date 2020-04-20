@@ -1,0 +1,50 @@
+.products {
+  background-color: #e3e6e3;
+  display: grid;
+  grid-template-columns: repeat(3, 0.33fr);
+  padding: 1.5625rem;
+
+  @media only screen and (max-width: 768px) {
+    grid-template-columns: repeat(2, 0.5fr);
+  }
+
+  .product {
+    text-align: center;
+    padding: 3.125rem 1.875rem;
+    min-height: 3.125rem;
+
+    text-align: center;
+
+    h2 {
+      font-weight: 400;
+      color: #494b47;
+      font-size: 1rem;
+      color: #2b2e2b;
+      margin-bottom: 0.375rem;
+    }
+
+    &--image-container {
+      min-height: 13.75rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        margin: auto;
+        max-width: 35%;
+        height: auto;
+        max-height: 11.25rem;
+      }
+    }
+
+    &--price {
+      margin-bottom: 1.25rem;
+      color: #0b0c0d;
+    }
+  }
+
+  button {
+    background-color: #4b5548;
+    color: #fff;
+  }
+}
